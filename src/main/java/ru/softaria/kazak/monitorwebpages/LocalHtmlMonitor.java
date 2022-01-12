@@ -6,7 +6,6 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
-import java.nio.file.NoSuchFileException;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
@@ -17,10 +16,10 @@ import java.util.Scanner;
  * local storage and create table of states of pages
  *
  * Format of input file:
- * <URL> : <path to file>
+ * <URL> <path to file>
  *
  * Example:
- * https://www.google.com/ : pagescache/google_12_01_2021.html
+ * https://www.google.com/ pagescache/google_12_01_2021.html
  */
 public class LocalHtmlMonitor implements WebPagesMonitor {
     private final String filename;
