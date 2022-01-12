@@ -1,0 +1,3 @@
+https://www.google.com/ testfiles/today/google.html
+https://softaria.ru/ testfiles/today/softaria.html
+https://www.timeanddate.com testfiles/today/time.html

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<File name="errors_file" fileName="logs/errors.log">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] - %msg%n"/>
+			<LevelRangeFilter minLevel="ERROR" maxLevel="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+		</File>
+	</Appenders>
+	<Loggers>
+		<Root level="error">
+			<AppenderRef ref="errors_file"/>
+		</Root>
+	</Loggers>
+</Configuration>

@@ -1,0 +1,4 @@
+https://www.google.com/ testfiles/yesterday/google.html
+https://ya.ru/ testfiles/yesterday/ya.html
+https://stackoverflow.com/ testfiles/yesterday/stackoverflow.html
+https://www.timeanddate.com testfiles/yesterday/time.html
